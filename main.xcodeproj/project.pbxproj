@@ -18,16 +18,6 @@
 		254BB8671B1FD16500C56DE9 /* main */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = main; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		254BB83B1B1FD08900C56DE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		254BB8351B1FD08900C56DE9 = {
 			isa = PBXGroup;
@@ -71,8 +61,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 254BB8611B1FD08900C56DE9 /* Build configuration list for PBXNativeTarget "main" */;
 			buildPhases = (
-				254BB83A1B1FD08900C56DE9 /* Sources */,
-				254BB83B1B1FD08900C56DE9 /* Frameworks */,
 				254BB83C1B1FD08900C56DE9 /* Resources */,
 			);
 			buildRules = (
@@ -127,16 +115,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		254BB83A1B1FD08900C56DE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		254BB85F1B1FD08900C56DE9 /* Debug */ = {
