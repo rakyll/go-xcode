@@ -15,8 +15,6 @@
 		254BB83E1B1FD08900C56DE9 /* drummachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drummachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254BB8421B1FD08900C56DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254BB84E1B1FD08900C56DE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		254BB85C1B1FD08900C56DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		254BB85D1B1FD08900C56DE9 /* drummachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drummachineTests.m; sourceTree = "<group>"; };
 		254BB8671B1FD16500C56DE9 /* drummachine */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = drummachine; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				254BB8401B1FD08900C56DE9 /* drummachine */,
-				254BB85A1B1FD08900C56DE9 /* drummachineTests */,
 				254BB83F1B1FD08900C56DE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,23 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				254BB8421B1FD08900C56DE9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		254BB85A1B1FD08900C56DE9 /* drummachineTests */ = {
-			isa = PBXGroup;
-			children = (
-				254BB85D1B1FD08900C56DE9 /* drummachineTests.m */,
-				254BB85B1B1FD08900C56DE9 /* Supporting Files */,
-			);
-			path = drummachineTests;
-			sourceTree = "<group>";
-		};
-		254BB85B1B1FD08900C56DE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				254BB85C1B1FD08900C56DE9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
