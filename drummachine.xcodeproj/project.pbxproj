@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		254BB8441B1FD08900C56DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254BB8431B1FD08900C56DE9 /* main.m */; };
 		254BB84F1B1FD08900C56DE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254BB84E1B1FD08900C56DE9 /* Images.xcassets */; };
 		254BB85E1B1FD08900C56DE9 /* drummachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254BB85D1B1FD08900C56DE9 /* drummachineTests.m */; };
 		254BB8681B1FD16500C56DE9 /* drummachine in Resources */ = {isa = PBXBuildFile; fileRef = 254BB8671B1FD16500C56DE9 /* drummachine */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		254BB83E1B1FD08900C56DE9 /* drummachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drummachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254BB8421B1FD08900C56DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		254BB8431B1FD08900C56DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		254BB84E1B1FD08900C56DE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		254BB8571B1FD08900C56DE9 /* drummachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drummachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		254BB85C1B1FD08900C56DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				254BB8421B1FD08900C56DE9 /* Info.plist */,
-				254BB8431B1FD08900C56DE9 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254BB8441B1FD08900C56DE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +379,7 @@
 				254BB8631B1FD08900C56DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		254BB8641B1FD08900C56DE9 /* Build configuration list for PBXNativeTarget "drummachineTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +388,7 @@
 				254BB8661B1FD08900C56DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
